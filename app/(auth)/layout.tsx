@@ -1,4 +1,6 @@
-
+// use bracket with (auth) to ignore the auth route and direct the request to /signup 
+// This way we can save ourselves from writing the same logic of layout.tsx
+ 
 export default function({ children }:{
     children: React.ReactNode
 }) {
